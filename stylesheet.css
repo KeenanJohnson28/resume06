@@ -1,0 +1,99 @@
+body {
+    background-color:aliceblue;
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  h1 {
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+
+  } 
+  
+  
+  h2, h4{
+    font-size: 40px;
+    background-color: #ccc;
+    margin: 20px;
+    padding: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 4px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: rgb(133, 191, 245);
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 60px;
+  
+  }
+  #element{
+    .p1{
+    position: relative;
+    left: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-right: 80px;
+      margin: 20px;
+      color:rgb(140, 176, 216);  
+  }
+}
+
+  }
+  
+  .img_man{
+    width: 350px;
+    margin: 10px;
+    border-style: double;
+    border-color: black;
+    border-width: 10px; 
+    ;
+  }
+
+  h3{
+    font-family: fantasy;
+    font-size: 30px;
+    margin: 25px;
+  
+  }
+  .p2{
+    font-family: Arial, Helvetica, sans-serif;
+      margin-right: 30px;
+      margin: 20px;
+      color:black;
+      
+  }
+
+  div{
+    padding-left: 40px;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 250px;
+    height: 215px;
+  }
+
+  div.relative{
+    position: relative;
+    border: 3px solid rgb(42, 77, 94);
+    background-color: rgb(196, 228, 255);
+    
+  }
+
+  div.absolute{
+    position: absolute;
+    left: 1900px;
+    top: 10px ;
+    
+  }
+  .flex-container{
+    display: flex;
+    background-color: rgb(194, 218, 238);
+  }
+
+  .flex-container > div {
+    background-color: #9dd2e2;
+    margin :10px;
+    padding: 20px;
+  }
